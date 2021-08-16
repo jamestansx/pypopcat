@@ -2,7 +2,7 @@
 
 <img src='.\media\popcat.jpg' alt="popcat icon" style="float: centre; margin-center: 10px;" />
 
-# POPCAT CLICK
+# PYPOPCAT
 
 [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ---
@@ -10,7 +10,7 @@
 
 ## Installation
 
-`Popcat click` requires browser driver of your favorite browser to be installed.
+`Pypopcat` requires browser driver of your favorite browser to be installed.
 
 | browser          | link                                                                                           |
 | ---------------- | ---------------------------------------------------------------------------------------------- |
