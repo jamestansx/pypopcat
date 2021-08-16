@@ -1,0 +1,30 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "James Tan", email = "jamestansx@gmail.com"},
+]
+dependencies = [
+    "selenium~=3.141",
+    "msedge-selenium-tools~=3.141",
+]
+requires-python = ">=3.9"
+dynamic = ["classifiers"]
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+
+[project.optional-dependencies]
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+installer = [
+    "pyinstaller~=4.5",
+]

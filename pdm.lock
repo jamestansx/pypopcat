@@ -1,0 +1,132 @@
+[[package]]
+name = "altgraph"
+version = "0.17"
+summary = "Python graph (network) package"
+
+[[package]]
+name = "future"
+version = "0.18.2"
+requires_python = ">=2.6,!=3.0.*,!=3.1.*,!=3.2.*"
+summary = "Clean single-source support for Python 3 and 2"
+
+[[package]]
+name = "macholib"
+version = "1.14"
+summary = "Mach-O header analysis and editing"
+dependencies = [
+    "altgraph>=0.15",
+]
+
+[[package]]
+name = "msedge-selenium-tools"
+version = "3.141.3"
+summary = "An updated EdgeDriver implementation for Selenium 3 with newly-added support for Microsoft Edge (Chromium)."
+dependencies = [
+    "selenium==3.141",
+]
+
+[[package]]
+name = "pefile"
+version = "2021.5.24"
+requires_python = ">=3.6"
+summary = "Python PE parsing module"
+dependencies = [
+    "future",
+]
+
+[[package]]
+name = "pyinstaller"
+version = "4.5.1"
+requires_python = ">=3.6"
+summary = "PyInstaller bundles a Python application and all its dependencies into a single package."
+dependencies = [
+    "altgraph",
+    "macholib>=1.8; sys_platform == \"darwin\"",
+    "pefile>=2017.8.1; sys_platform == \"win32\"",
+    "pyinstaller-hooks-contrib>=2020.6",
+    "pywin32-ctypes>=0.2.0; sys_platform == \"win32\"",
+    "setuptools",
+]
+
+[[package]]
+name = "pyinstaller-hooks-contrib"
+version = "2021.2"
+summary = "Community maintained hooks for PyInstaller"
+
+[[package]]
+name = "pywin32-ctypes"
+version = "0.2.0"
+summary = "UNKNOWN"
+
+[[package]]
+name = "selenium"
+version = "3.141.0"
+summary = "Python bindings for Selenium"
+dependencies = [
+    "urllib3",
+]
+
+[[package]]
+name = "setuptools"
+version = "57.4.0"
+requires_python = ">=3.6"
+summary = "Easily download, build, install, upgrade, and uninstall Python packages"
+
+[[package]]
+name = "urllib3"
+version = "1.26.6"
+requires_python = ">=2.7,<4.0,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
+summary = "HTTP library with thread-safe connection pooling, file post, and more."
+
+[metadata]
+lock_version = "3.1"
+content_hash = "sha256:0c8ce55ddd3bbe5c2f46352b15c7bd98036b25ead961f3fbdc1c011ab253d1dc"
+
+[metadata.files]
+"altgraph 0.17" = [
+    {file = "altgraph-0.17-py2.py3-none-any.whl", hash = "sha256:c623e5f3408ca61d4016f23a681b9adb100802ca3e3da5e718915a9e4052cebe"},
+    {file = "altgraph-0.17.tar.gz", hash = "sha256:1f05a47122542f97028caf78775a095fbe6a2699b5089de8477eb583167d69aa"},
+]
+"future 0.18.2" = [
+    {file = "future-0.18.2.tar.gz", hash = "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"},
+]
+"macholib 1.14" = [
+    {file = "macholib-1.14-py2.py3-none-any.whl", hash = "sha256:c500f02867515e6c60a27875b408920d18332ddf96b4035ef03beddd782d4281"},
+    {file = "macholib-1.14.tar.gz", hash = "sha256:0c436bc847e7b1d9bda0560351bf76d7caf930fb585a828d13608839ef42c432"},
+]
+"msedge-selenium-tools 3.141.3" = [
+    {file = "msedge_selenium_tools-3.141.3-py3-none-any.whl", hash = "sha256:63e2966d48094239e4d40bdaf9fd1c723698541c90362cf8d810d934cd7334f9"},
+    {file = "msedge-selenium-tools-3.141.3.tar.gz", hash = "sha256:b6d4adce03770211de9a927edce41672baa6b2f582a969d564e5176631cc8d2b"},
+]
+"pefile 2021.5.24" = [
+    {file = "pefile-2021.5.24.tar.gz", hash = "sha256:ed79b2353daa58421459abf4d685953bde0adf9f6e188944f97ba9795f100246"},
+]
+"pyinstaller 4.5.1" = [
+    {file = "pyinstaller-4.5.1-py3-none-macosx_10_13_universal2.whl", hash = "sha256:ecc2baadeeefd2b6fbf39d13c65d4aa603afdda1c6aaaebc4577ba72893fee9e"},
+    {file = "pyinstaller-4.5.1-py3-none-manylinux2014_aarch64.whl", hash = "sha256:4d848cd782ee0893d7ad9fe2bfe535206a79f0b6760cecc5f2add831258b9322"},
+    {file = "pyinstaller-4.5.1-py3-none-manylinux2014_i686.whl", hash = "sha256:8f747b190e6ad30e2d2fd5da9a64636f61aac8c038c0b7f685efa92c782ea14f"},
+    {file = "pyinstaller-4.5.1-py3-none-manylinux2014_x86_64.whl", hash = "sha256:c587da8f521a7ce1b9efb4e3d0117cd63c92dc6cedff24590aeef89372f53012"},
+    {file = "pyinstaller-4.5.1-py3-none-win32.whl", hash = "sha256:fed9f5e4802769a416a8f2ca171c6be961d1861cc05a0b71d20dfe05423137e9"},
+    {file = "pyinstaller-4.5.1-py3-none-win_amd64.whl", hash = "sha256:aae456205c68355f9597411090576bb31b614e53976b4c102d072bbe5db8392a"},
+    {file = "pyinstaller-4.5.1.tar.gz", hash = "sha256:30733baaf8971902286a0ddf77e5499ac5f7bf8e7c39163e83d4f8c696ef265e"},
+]
+"pyinstaller-hooks-contrib 2021.2" = [
+    {file = "pyinstaller_hooks_contrib-2021.2-py2.py3-none-any.whl", hash = "sha256:57964f93eb69255c49159ffdf052aae893feed223b0f69773dfd010ca6c569d9"},
+    {file = "pyinstaller-hooks-contrib-2021.2.tar.gz", hash = "sha256:7f5d0689b30da3092149fc536a835a94045ac8c9f0e6dfb23ac171890f5ea8f2"},
+]
+"pywin32-ctypes 0.2.0" = [
+    {file = "pywin32_ctypes-0.2.0-py2.py3-none-any.whl", hash = "sha256:9dc2d991b3479cc2df15930958b674a48a227d5361d413827a4cfd0b5876fc98"},
+    {file = "pywin32-ctypes-0.2.0.tar.gz", hash = "sha256:24ffc3b341d457d48e8922352130cf2644024a4ff09762a2261fd34c36ee5942"},
+]
+"selenium 3.141.0" = [
+    {file = "selenium-3.141.0-py2.py3-none-any.whl", hash = "sha256:2d7131d7bc5a5b99a2d9b04aaf2612c411b03b8ca1b1ee8d3de5845a9be2cb3c"},
+    {file = "selenium-3.141.0.tar.gz", hash = "sha256:deaf32b60ad91a4611b98d8002757f29e6f2c2d5fcaf202e1c9ad06d6772300d"},
+]
+"setuptools 57.4.0" = [
+    {file = "setuptools-57.4.0-py3-none-any.whl", hash = "sha256:a49230977aa6cfb9d933614d2f7b79036e9945c4cdd7583163f4e920b83418d6"},
+    {file = "setuptools-57.4.0.tar.gz", hash = "sha256:6bac238ffdf24e8806c61440e755192470352850f3419a52f26ffe0a1a64f465"},
+]
+"urllib3 1.26.6" = [
+    {file = "urllib3-1.26.6-py2.py3-none-any.whl", hash = "sha256:39fb8672126159acb139a7718dd10806104dec1e2f0f6c88aab05d17df10c8d4"},
+    {file = "urllib3-1.26.6.tar.gz", hash = "sha256:f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f"},
+]
