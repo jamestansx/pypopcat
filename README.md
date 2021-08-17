@@ -1,6 +1,6 @@
 <div align="center" style="text-align: center">
 
-<img src='.\media\popcat.jpg' alt="popcat icon" style="float: centre; margin-center: 10px;" />
+<img src='.\images\popcat.jpg' alt="popcat icon" style="float: centre; margin-center: 10px;" />
 
 # PYPOPCAT
 
