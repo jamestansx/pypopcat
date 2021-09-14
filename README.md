@@ -18,7 +18,7 @@
 | Firefox          | [geckodriver](https://github.com/mozilla/geckodriver/releases/)                                |
 | Edge (chromium)  | [Microsoft Edge Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) |
 
-Install the `executable file` from the [release](https://github.com/jamestansx/popcat/releases).
+Install the `popcat.exe` from the [release](https://github.com/jamestansx/popcat/releases).
 
 ## Quickstart
 
